@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+
+    <body>
+        <script>
+            // cau 1
+            let a = prompt("nhap so a")
+            let b = prompt("nhap so b")
+            if (isNaN(a) || isNaN(b)) {
+                alert("phai nhap so")
+            }
+            else {
+                if (a > b) {
+                    alert("a phai nho hon b")
+                }
+            }
+
+            let sum = 0;
+            for (let i = a; i <= b; i++) {
+                let one = 0;
+                for (let j = 2; j < i; j++) {
+                    if (i % j == 0) {
+                        one = 1;
+                    }
+                }
+                if (one == 0 && i >1 ) {
+                    document.write(i, ";");
+                    sum = sum + i
+                }
+
+            }
+            document.write(" tong so nguyen to la: ", sum);
+            document.write("<br>")
+           // cau 2
+            function numberonetriangle(n) {                           
+                for (i = 0; i < n; i++) {
+                    
+                    for (j = 0; j <= i; j++) {
+                        document.write(" * ");
+                    }
+                    
+                    document.write("<br/>");
+                }
+
+            }
+            numberonetriangle(4);
+
+        </script>
+    </body>
+
+    </html>
+</body>
+
+</html>

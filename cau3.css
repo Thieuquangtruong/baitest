@@ -1,0 +1,94 @@
+h1 {
+    width: 91px;
+    height: 40px;
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 40px;
+    color: #151B32;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.parent {
+    display: flex;
+    justify-content: space-between;
+}
+
+li {
+    border-radius: 10px;
+    list-style: none;
+    margin-right: 10px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+}
+
+li:hover {
+    background-color: #849FFF;
+    color: white;
+}
+
+.search-block {
+    border: 1px solid #ccc;
+    background-color: white;
+    align-items: center;
+    display: flex;
+    padding: 5px;
+
+}
+
+#search {
+    border: none;
+}
+
+.container {
+
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 70%;
+    text-align: center;
+    margin: auto;
+}
+
+.header,
+.container {
+    padding: 10px;
+
+}
+
+.box {
+    display: flex;
+    margin: px;
+    width: 27%;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 10%);
+    border: .1rem solid none;
+    cursor: pointer;
+    border-radius: 0.5rem;
+    padding: 26px;
+
+}
+
+.content {
+    text-align: left;
+    padding-left: 30px;
+    width: 150px;
+}
+
+.image {
+    width: 80px;
+    height: 80px;
+}
+
+.btn {
+    border: 1px solid #BFC8E6;
+    border-radius: 10px;
+    border-color: aquamarine;
+    color: rgb(76, 76, 218);
+    padding: 2px;
+}
